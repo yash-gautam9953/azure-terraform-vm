@@ -80,7 +80,7 @@ resource "azurerm_linux_virtual_machine" "main" {
   disable_password_authentication = true
 
   admin_ssh_key {
-    username   = "azureuser"
+    username   = "yashvm"
     public_key = var.ssh_public_key
   }
 
